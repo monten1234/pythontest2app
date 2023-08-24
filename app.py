@@ -1,5 +1,5 @@
 import streamlit as st
-from azure.cosmos import CosmosClient, PartitionKey
+from azure.cosmos import CosmosClient
 
 # Azure Cosmos DBの設定
 URL = 'https://adachitakehirodemo3.documents.azure.com:443/'
