@@ -11,7 +11,7 @@ client = CosmosClient(URL, credential=KEY)
 database = client.get_database_client(DATABASE_NAME)
 container = database.get_container_client(CONTAINER_NAME)
 
-st.title("Azure Cosmos DB with Streamlit")
+st.title("Azure Cosmos DB with Streamlit!")
 
 # データのアップロード
 st.subheader("Upload Data to Cosmos DB")
