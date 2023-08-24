@@ -2,10 +2,10 @@ import streamlit as st
 from azure.cosmos import CosmosClient, PartitionKey
 
 # Azure Cosmos DBの設定
-URL = "YOUR_COSMOSDB_URL"
-KEY = "YOUR_COSMOSDB_KEY"
-DATABASE_NAME = "YOUR_DATABASE_NAME"
-CONTAINER_NAME = "YOUR_CONTAINER_NAME"
+URL = 'https://adachitakehirodemo3.documents.azure.com:443/'
+KEY = 'C7Z6MXR3EUj5DGngcK4dF84ZZr0yfjPhZPCheo635tFgbUIbZ3GZJG3MWD3lis5PDkHAW63w7BAZACDbPuTKGw=='
+DATABASE_NAME = 'SampleTestDB'
+CONTAINER_NAME = 'Test'
 
 client = CosmosClient(URL, credential=KEY)
 database = client.get_database_client(DATABASE_NAME)
